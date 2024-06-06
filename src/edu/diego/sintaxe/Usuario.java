@@ -4,10 +4,13 @@ public class Usuario {
     public static void main(String[] args){
         SmartTV novaTV = new SmartTV();
 
-        novaTV.estado = true;
-        novaTV.canais = 45;
-        novaTV.volume = 25;
-
+        System.out.printf("A TV esta ligada? %b\n",novaTV.estado);
+        novaTV.onOff();
+        System.out.printf("A TV esta ligada? %b",novaTV.estado);
+        novaTV.diminuirVolume();
+        novaTV.mudarCanal(50);
+        novaTV.aumentarVolume();
+        System.out.printf("A TV esta ligada? %b\nO Volume dela é: %d\nE esta no canal: %d",novaTV.estado,novaTV.volume,novaTV.canais);
     }
 
 }
