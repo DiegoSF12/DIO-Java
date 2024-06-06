@@ -1,7 +1,8 @@
+package estruturas.condicionais;
 
-public class IfElse {
+public class Conta {
     public static void main(String[] args){
-        double saldo = 20;
+        double saldo = 15;
         double valorSolicitado = 17.50;
         
         if(saldo >= valorSolicitado){
