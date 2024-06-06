@@ -1,3 +1,5 @@
+package Testes;
+
 public class TerminalTeste {
     public static void main(String[] args){
         String nome = args[0];
