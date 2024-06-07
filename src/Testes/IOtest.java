@@ -9,6 +9,6 @@ public class IOtest {
         Scanner x = new Scanner(System.in).useLocale(Locale.US);
         System.out.println("Seja bem vindo, qual o seu nome;");
         nome = x.nextLine();
-        System.out.printf("Muito prazer %s \n", nome);
+        System.out.printf("Muito prazer, %s \n", nome);
     }
 }
