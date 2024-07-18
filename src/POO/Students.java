@@ -13,6 +13,10 @@ public class Students{
         this.sex = sex;
     }
 
+    public String getName(){
+        return this.name;
+    }
+
     public void eatin(){
         System.out.printf("%s eating\n", this.name);
     }
@@ -22,4 +26,5 @@ public class Students{
     public void drinking(){
         System.out.printf("%s drinking\n", this.name);
     }
+
 }
