@@ -1,4 +1,4 @@
-package Atividades;
+package POO.Atividades;
 
 import java.util.Scanner;
 
@@ -8,6 +8,7 @@ public class FuncionarioTest {
         Scanner scanner = new Scanner(System.in);
 
         func01.setSalario(scanner);
-        System.out.printf("A media salarial é: %.2f",func01.mediaSalario());
+        func01.ficha();
+
     }
 }

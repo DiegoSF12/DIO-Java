@@ -1,4 +1,4 @@
-package Atividades;
+package POO.Atividades;
 
 import java.util.Scanner;
 
@@ -41,7 +41,7 @@ public class Funcionario {
             System.out.printf("%º Salario: ",i+1);
         }
     }
-    public double mediaSalario(){
+    private double mediaSalario(){
         double temp = 0;
         for(int i = 0; i < tam; i++){
             temp = salario[i] + temp;
@@ -49,6 +49,8 @@ public class Funcionario {
         temp = temp / tam;
         return temp;
     }
-
+    public void ficha(){
+        System.out.printf("Nome: %s\nIdade: %d anos\nMedia salarial: %.2f",getNome(), getIdade(), mediaSalario());
+    }
 }
 
