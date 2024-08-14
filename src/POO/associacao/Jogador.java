@@ -15,16 +15,13 @@ public class Jogador {
         this.nome = nome;
     }
 
-    public void setTime(Time time){
-        this.time = time;
-    }
-
-    public Time getTime(){
-        return time;
-    }
-
     public void imprime(){
         System.out.println(getNome());
-        System.out.println(getTime());
+        if(time != null) {
+            System.out.println(time.getTime());
+        }
+    }
+
+    public void setTime(Time time) {
     }
 }
