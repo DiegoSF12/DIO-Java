@@ -1,4 +1,4 @@
-package tratamento.excessoes;
+package POO.ProgramacaoII.TryCatch;
 
 import java.util.Scanner;
 import java.util.InputMismatchException;
