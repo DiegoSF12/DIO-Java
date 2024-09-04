@@ -17,7 +17,7 @@ public class JogadorX {
     public void imprime(){
         System.out.println(getNome());
         if(time != null){
-            System.out.println(time.imprimeTime);
+            //System.out.println(time.imprimeTime);
         }
     }
 
