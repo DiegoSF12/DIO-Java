@@ -8,7 +8,7 @@ public class Teste {
         try{
             Scanner x = new Scanner(System.in);
             int num;
-            System.out.println("dIGITE UM VALOR");
+            System.out.println("Digite um valor");
             num = x.nextInt();
         }
         catch (InputMismatchException e) {
