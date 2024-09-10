@@ -1,4 +1,4 @@
-package Atividades.Abstract;
+package POO.ProgramacaoII.Abstract;
 
 import java.text.SimpleDateFormat;
 import java.util.Date;
@@ -32,7 +32,16 @@ public class Dvd extends ItemAbstrato{
     public void devolver() {
         setSituacaoItem("L");
         setDataDevolucao(sdf.format(new Date()));
-        System.out.printf("DVD Devolvido\n-Situação = %s\n-Data Devolucao = %s",getSituacaoItem(),  );
+        System.out.printf("DVD Devolvido\n-Situação = %s\n-Data Devolucao = %s",getSituacaoItem(), this.getDataDevolucao());
 
     }
+
+    public void imprimir(){
+        System.out.printf("Imprimir lista de DVDs usando metodo concreto: %s\n", getTitulo());
+
+    }
+    public static Dvd getInstance(){
+        return new Dvd();
+    }
+
 }
