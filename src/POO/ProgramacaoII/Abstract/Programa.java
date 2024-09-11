@@ -8,7 +8,7 @@ public class Programa {
         Dvd dvd;
         Cd cd;
         while (true) {
-            System.out.println("--------------------------");
+            System.out.println("-----------------------------------------");
             System.out.println("Digite 0 para Sair ou a opção abaixo:");
             System.out.println("1 - Cadastrar DVD\n2 - Emprestar DVD\n3 - Devolver DVD");
             System.out.println("4 - Cadastrar CDs\n5 - Vender CDs\n6 - Imprimir CDs");

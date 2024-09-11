@@ -15,7 +15,7 @@ public class Dvd extends ItemAbstrato{
         setCodigo(1);
         setTitulo("Shrek");
         setSituacaoItem("L");
-        System.out.printf("DVD Cadastrado: \n-Cod = %d\n-Titulo = %s\n-Situação = %s", getCodigo(),getTitulo(),getSituacaoItem());
+        System.out.printf("DVD Cadastrado: \n-Cod = %d\n-Titulo = %s\n-Situação = %s\n", getCodigo(),getTitulo(),getSituacaoItem());
         System.out.println("DVD Cadastrado utilizando o metodo abstrato \nherdado da classe anbstrata ItemAbstrato");
     }
 
