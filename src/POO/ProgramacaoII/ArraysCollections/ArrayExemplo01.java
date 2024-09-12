@@ -31,6 +31,7 @@ public class ArrayExemplo01 {
             String nomeCarro = scan.nextLine();
             carros03[i] = new Carro(nomeCarro);
         }
+        scan.close();
         Carro.imprimir(carros03);//METODO QUE VEM DA CLASSE CARRO
 
 
