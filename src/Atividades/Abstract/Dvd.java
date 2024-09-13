@@ -32,7 +32,8 @@ public class Dvd extends ItemAbstrato{
     public void devolver() {
         setSituacaoItem("L");
         setDataDevolucao(sdf.format(new Date()));
-        System.out.printf("DVD Devolvido\n-Situação = %s\n-Data Devolucao = %s",getSituacaoItem(),  );
+        System.out.printf("DVD Devolvido\n-Situação = %s\n-Data Devolucao = %s",getSituacaoItem(), this.getDataDevolucao());
+
 
     }
 }
