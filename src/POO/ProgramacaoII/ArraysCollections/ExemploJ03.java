@@ -20,7 +20,9 @@ public class ExemploJ03 extends JFrame {
         saidaArea.append("Os valores do array2 são: \n");
         buildSaida(array2);
 
-        setSize(400,400);//CONFIGURANDO O TAMANHO DA JANELA
+        saidaArea.append("\tQue negocio feio kkkk");
+
+        setSize(350,350);//CONFIGURANDO O TAMANHO DA JANELA
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);//FECHA A APLICAÇÃO AO CLICAR NO BOTÃO FECHAR
         setVisible(true);//TORNA A JANELA VISIVEL
     }
