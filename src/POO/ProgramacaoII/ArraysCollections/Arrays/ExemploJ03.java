@@ -1,4 +1,4 @@
-package POO.ProgramacaoII.ArraysCollections;
+package POO.ProgramacaoII.ArraysCollections.Arrays;
 
 import javax.swing.*;
 import java.awt.*;
@@ -20,6 +20,8 @@ public class ExemploJ03 extends JFrame {
         saidaArea.append("Os valores do array2 são: \n");
         buildSaida(array2);
 
+        saidaArea.append("\tFicou feio kkk porém funciona");
+
         setSize(400,400);//CONFIGURANDO O TAMANHO DA JANELA
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);//FECHA A APLICAÇÃO AO CLICAR NO BOTÃO FECHAR
         setVisible(true);//TORNA A JANELA VISIVEL
@@ -35,6 +37,5 @@ public class ExemploJ03 extends JFrame {
     }
     public static void main(String[] args){
         new ExemploJ03();
-        System.out.println("Que trem fei");
     }
 }
