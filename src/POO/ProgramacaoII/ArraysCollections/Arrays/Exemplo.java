@@ -1,4 +1,4 @@
-package POO.ProgramacaoII.ArraysCollections;
+package POO.ProgramacaoII.ArraysCollections.Arrays;
 
 import javax.swing.*;
 

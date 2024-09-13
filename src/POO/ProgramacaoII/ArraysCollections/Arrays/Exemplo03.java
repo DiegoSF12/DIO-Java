@@ -2,7 +2,7 @@
 //DESDE A SUA VERSÃO 9, ENTÃO ESSA CLASSE NUNCA VAI SER EXECUTADA DE FORMA NATIVA
 //COMO ALTERNATIVA VÁ PARA A CLASSE EXEMPLOJ03 PARA VISUALIZAR COM O JFRAME
 
-package POO.ProgramacaoII.ArraysCollections;
+package POO.ProgramacaoII.ArraysCollections.Arrays;
 
 import java.awt.Container;
 import javax.swing.JApplet;
