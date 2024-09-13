@@ -20,15 +20,12 @@ public class ExemploJ03 extends JFrame {
         saidaArea.append("Os valores do array2 são: \n");
         buildSaida(array2);
 
-<<<<<<< HEAD:src/POO/ProgramacaoII/ArraysCollections/ExemploJ03.java
         saidaArea.append("\tQue negocio feio kkkk");
 
         setSize(350,350);//CONFIGURANDO O TAMANHO DA JANELA
-=======
         saidaArea.append("\tFicou feio kkk porém funciona");
 
         setSize(400,400);//CONFIGURANDO O TAMANHO DA JANELA
->>>>>>> 44065439cdad1585c6fb5af5604d329c5cb0e648:src/POO/ProgramacaoII/ArraysCollections/Arrays/ExemploJ03.java
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);//FECHA A APLICAÇÃO AO CLICAR NO BOTÃO FECHAR
         setVisible(true);//TORNA A JANELA VISIVEL
     }
