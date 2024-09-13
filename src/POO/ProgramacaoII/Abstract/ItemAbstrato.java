@@ -1,4 +1,4 @@
-package Atividades.Abstract;
+package POO.ProgramacaoII.Abstract;
 
 public abstract class ItemAbstrato {
 
