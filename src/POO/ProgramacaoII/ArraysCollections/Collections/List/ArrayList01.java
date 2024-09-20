@@ -1,4 +1,4 @@
-package POO.ProgramacaoII.ArraysCollections.Collections;
+package POO.ProgramacaoII.ArraysCollections.Collections.List;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -23,7 +23,7 @@ public class ArrayList01 {
         saida += "\n Total de frutas da lista apoós remover uva: "+listaFrutas.size();
         saida += "\n Frutas da lista após remover uva da lista: "+listaFrutas.toString();
         saida += "\nIndice da fruta caju na lista: "+listaFrutas.indexOf("caju");
-
+        System.out.println(saida);
         JTextArea saidaArea = new JTextArea();
         saidaArea.setText(saida);
 
