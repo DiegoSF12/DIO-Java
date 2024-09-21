@@ -19,8 +19,8 @@ public class TreeSetEX01 {
     public TreeSetEX01(){
         TreeSet tree = new TreeSet(Arrays.asList(cores));
 
-        saida += "\nSet de elementos não duplicados e ordenados: "+this.mostrarSet(tree);
+        //saida += "\nSet de elementos não duplicados e ordenados: "+this.mostrarSet(tree);
 
-        saida += ""
+        saida += "";
     }
 }
