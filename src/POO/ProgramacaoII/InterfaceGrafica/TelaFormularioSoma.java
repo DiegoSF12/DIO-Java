@@ -2,6 +2,7 @@ package POO.ProgramacaoII.InterfaceGrafica;
 
 import javax.swing.*;
 import javax.swing.text.FlowView;
+import javax.swing.JButton;
 import java.awt.FlowLayout;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
