@@ -1,3 +1,6 @@
+
+package POO.ProgramacaoII.ArraysCollections.Collections.Set;
+/*
 import java.util.Arrays;
 import java.util.Iterator;
 import java.util.SortedSet;
@@ -17,7 +20,6 @@ public class TreeSetEX01 {
     public TreeSetEX01(){
         TreeSet tree = new TreeSet(Arrays.asList(cores));
 
-<<<<<<< HEAD
         saida += "\nSet de elementos não duplicados e ordenados: ";
         this.mostrarSet(tree);
 
@@ -36,12 +38,10 @@ public class TreeSetEX01 {
 
         JOptionPane.showMessageDialog(null,saidaArea,"Trabalhando com Sets",JOptionPane.INFORMATION_MESSAGE);
         System.exit(0);
-=======
         //saida += "\nSet de elementos não duplicados e ordenados: "+this.mostrarSet(tree);
 
         saida += "";
->>>>>>> 286d11c8e7b62b315189fa63229b2b5279c95e99
-    }
+
     private void mostrarSet(SortedSet ss){
         Iterator iterator = ss.iterator();
 
@@ -50,3 +50,5 @@ public class TreeSetEX01 {
         }
     }
 }
+
+ */

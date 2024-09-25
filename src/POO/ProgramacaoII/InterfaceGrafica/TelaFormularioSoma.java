@@ -1,4 +1,4 @@
-package POO.ProgramacaoII.InterfaceGrafica;
+/*package POO.ProgramacaoII.InterfaceGrafica;
 
 import javax.swing.*;
 import javax.swing.text.FlowView;
@@ -16,7 +16,7 @@ public class TelaFormularioSoma extends JFrame{
     private JTextField campoResultado;
     private JLabel rotuloResultado;
     private JButton botaoSoma;
-    private JButton botaoSomar;
+    private JButton botaoLimpar;
 
     public TelaFormularioSoma(){
         super("Exemplo JTextField");
@@ -59,13 +59,42 @@ public class TelaFormularioSoma extends JFrame{
 
             campoValor2 = new JTextField(10);
             this.add(campoValor2);
+
+            botaoSoma = new JButton("Soma");
+
+            TrataEventoBotao trataEvento = new TrataEventoBotao();
+            botaoSoma.addActionListener(trataEvento);
+            rotuloResultado = new JLabel("Resultado");
+            rotuloResultado.setToolTipText("Resultado da Soma");
+            this.add(rotuloResultado);
+
+            campoResultado = new JTextField(10);
+            campoResultado.setEditable(false);
+            this.add(campoResultado);
+
+            this.add(botaoSoma);
+
+            botaoLimpar = new JButton("Limpar");
+            botaoLimpar.addActionListener(new ActionListener() {
+
+                @Override
+                public void actionPerformed(ActionEvent arg0) {
+                    campoValor1.setText("");
+                    campoValor2.setText("");
+                    campoResultado.setText("");
+                }
+            });
+            this.add(botaoLimpar);
+
+
+
+
+
+
+
+
         }
     }
-
-        
-     
-
-
-
-
 }
+
+ */
