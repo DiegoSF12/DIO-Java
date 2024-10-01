@@ -9,6 +9,7 @@ public class TelaVerImagem extends JFrame {
 
     public TelaVerImagem(){
         super("Tela para visualização de imagens");
+
         this.configuraTelaInicial();
         this.prepararMenu();
     }
