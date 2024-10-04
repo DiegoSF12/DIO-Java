@@ -1,7 +1,10 @@
 package Testes;
 
-public class HelloWorld {
+import javax.swing.JOptionPane;
+
+public class HelloWorld{
     public static void main(String[] args){
-         System.out.println("Hello, World");
+        JOptionPane.showConfirmDialog(null,"Hello, World");
+
     }
 }
